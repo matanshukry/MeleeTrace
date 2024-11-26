@@ -268,7 +268,7 @@ void UMeleeTraceComponent::InternalStartTrace(const FMeleeTraceInfo& MeleeTraceI
 
 	if (!AddedAny)
 	{
-		UE_LOG(LogTemp,
+		UE_LOG(LogMeleeTrace,
 			Error,
 			TEXT("None of the USkeletalMeshComponents contain sockets with names: %s and %s"),
 			*MeleeTraceInfo.StartSocketName.ToString(),
